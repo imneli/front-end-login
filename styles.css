@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,600;1,600&display=swap');
+* {
+    font-family: 'Inter Tight';
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
+
+@font-face {
+    font-family: 'Nexa';
+    src: url(Nexa.ttf);
+}
+
+.atlantis {
+    text-align: center;
+    font-size: 4rem;
+    color: aliceblue;
+    text-transform: uppercase;
+    text-align: center;
+    gap: 0.5rem;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Nexa';
+    
+}
+
+.back {
+    padding: 0px;
+    background: linear-gradient(-225deg, #AC32E4 0%, #7918F2 48%, #4801FF 100%);
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+p {
+    font-size: 6rem;
+    color: aliceblue;
+}
+
+hr {
+    width: 100%;
+    height: 0.7rem;
+    border: 0px;
+    border-radius: 0.5rem;
+    background-color: #dddddd;
+    display: flex;
+    margin-top: 0px;
+
+}
+
+.para {
+    text-align: center;
+    font-size: 1rem;
+}
+
+button {
+
+    align-items: center;
+    background-color: rgb(72, 3, 138); 
+    border: none;
+    cursor: pointer;
+    color: white;
+    padding: 10px 90px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1rem;
+    border-radius: 2rem;
+    box-shadow: 0 0 2em rgb(153, 89, 255);
+
+    }
+
+.email {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 10px 20px;
+    gap: 1rem;
+    flex-direction: column;
+    text-transform: uppercase;
+}
+
+.password {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    display: flex;
+    padding: 10px 20px;
+    gap: 1rem;
+    flex-direction: column;
+    text-transform: uppercase;
+}
+
+.email > label {
+    color: #dddddd;
+    margin-right: 160px;
+}
+
+.password > label {
+    color: #dddddd;
+    margin-right: 160px;
+}
+
+.email input {
+    outline: none;
+    border: none;
+    border-radius: 30px;
+    box-shadow: 0 0 2em #e6e9f9;
+    padding: 10px 20px;
+}
+
+.password input {
+    outline: none;
+    border: none;
+    border-radius: 30px;
+    padding: 10px 20px;
+    box-shadow: 0 0 2em #e6e9f9;
+}
+
+.screen-1 {
+    background: #f1f7fe;
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    border-radius: 30px;
+    box-shadow: 0 0 2em #e6e9f9;
+    gap: 2em;
+  }
+
+.footer2 {
+    text-align: center;
+    color: #dddddd;
+    cursor: pointer;
+  }
+
+img {
+    height: 15px;
+  }
+
+.foguete {
+    position: relative;
+	align-items: center;
+	top: 0px;
+    gap: 1rem;
+}
+
+footer {
+    align-items: center;
+    font-family: 'Nexa';
+}
+
+.loginpage {
+    font-family: 'Nexa';
+    text-transform: uppercase;
+    text-align: center;
+    justify-content: center;
+    bottom: 0;
+    position: fixed;
+    width: 90%;
+
+}
+
+
+
+
+
+
+
+
+
